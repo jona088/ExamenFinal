@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable:no">
     <title>Educacion</title>
   </head>
   <body>
@@ -85,11 +86,12 @@
               </p>
               <p>
               <label for="Institucion"><strong>Institucion</strong></label><br>
-              <input type="text" name="institucion" required>
+              <input type="text" name="institucion" required="text" pattern="[A-Za-z]+" title="solo texto">
+
               </p>
               <p>
               <label for="Lugar"><strong>Lugar</strong></label><br>
-              <input type="text" name="Lugar">
+              <textarea name="Lugar" rows="1" cols="50"></textarea>
               </p>
               <p>
               <label for="Culmino"><strong>Culmino?</strong></label><br>
